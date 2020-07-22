@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include avangers *.css
+recursive-include avangers *.csv
+recursive-include avangers *.html
+recursive-include avangers *.ico
+recursive-include avangers *.js
+recursive-include avangers *.json
+recursive-include avangers *.md
+recursive-include avangers *.png
+recursive-include avangers *.py
+recursive-include avangers *.svg
+recursive-include avangers *.txt
+recursive-exclude avangers *.pyc
